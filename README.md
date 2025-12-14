@@ -1,17 +1,16 @@
 <h2 align="center">Maize Breeding Data Analysis Knowledge Reserve Platform</h2>
 
-#----------------------------------------------------------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------
 
 <center>
 <br>Arthor: 	Hanabi <br>
 <br>Date:		25/12/14  <br>
 <br>Address:	Maize Research Institute(1512)   <br>
 </center>
-
-#----------------------------------------------------------------------------------------------------------------------------------------------------#
+#--------------------------------------------------------------------------------------------------
 
 ```` R
- _____                _        _   _            _                
+ _____                _        _   _                            
 |  ___|              | |      | | | |          (_)               
 | |____   _____ _ __ | |_ ___ | |_| | ___  _ __ _ _______  _ __  
 |  __\ \ / / _ \ '_ \| __/ __||  _  |/ _ \| '__| |_  / _ \| '_ \ 
@@ -21,13 +20,13 @@
 
 
 
-## 项目简介
+## Project Introduction
 
-本项目是基于玉米育种领域产出数据的分析及预测平台。只在通过流程化的脚本文件及示例数据让非从事数据分析行业的育种人士快速上手并实践数据分析。
+​        This project is an analysis and prediction platform based on the output data in the field of corn breeding. Only through procedural script files and example data can non data analysis industry breeders quickly get started and practice data analysis.
 
-#### 功能简介
+#### Function Introduction
 
-> 多模块数据分析
+> Multi module Data Analysis
 
 - **GWAS**
 - **GS**
