@@ -4,8 +4,13 @@
 <br>Arthor: 	Hanabi <br>
 <br>Date:		25/12/14  <br>
 <br>Address:	Maize Research Institute(1512)   <br>
-</center>
- ![lifecycle](https://img.shields.io/badge/lifecycle-maturing-pink)   ![License](https://img.shields.io/badge/License-LGPL%20v3-blue)    ![repo status](https://img.shields.io/badge/repo%20status-Active-brightgreen)   ![downloads](https://img.shields.io/badge/downloads-0/month-orange)   ![CRAN](https://img.shields.io/badge/CRAN-0.9.6%20%2D%208%20years%20ago-green)
+</center>  
+<br><br>
+
+![lifecycle](https://img.shields.io/badge/R-4.4.0+-pink) 
+![lifecycle](https://img.shields.io/badge/lifecycle-maturing-green) 
+![lifecycle](https://img.shields.io/badge/downloads-00/month-orange) 
+![lifecycle](https://img.shields.io/badge/arthor-_hliu-9cf?logo=github) 
 
 ```` R
  _____                _        _   _                            
@@ -15,8 +20,6 @@
 | |___\ V /  __/ | | | |_\__ \| | | | (_) | |  | |/ / (_) | | | |
 \____/ \_/ \___|_| |_|\__|___/\_| |_/\___/|_|  |_/___\___/|_| |_|
 ````
-
-
 
 ## Project Introduction
 
