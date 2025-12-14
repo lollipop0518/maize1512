@@ -5,7 +5,7 @@
 <br>Date:		25/12/14  <br>
 <br>Address:	Maize Research Institute(1512)   <br>
 </center>
-![lifecycle](https://img.shields.io/badge/lifecycle-maturing-pink)![License](https://img.shields.io/badge/License-LGPL%20v3-blue)![repo status](https://img.shields.io/badge/repo%20status-Active-brightgreen)![downloads](https://img.shields.io/badge/downloads-0/month-orange)![CRAN](https://img.shields.io/badge/CRAN-0.9.6%20%2D%208%20years%20ago-green)
+ ![lifecycle](https://img.shields.io/badge/lifecycle-maturing-pink)   ![License](https://img.shields.io/badge/License-LGPL%20v3-blue)    ![repo status](https://img.shields.io/badge/repo%20status-Active-brightgreen)   ![downloads](https://img.shields.io/badge/downloads-0/month-orange)   ![CRAN](https://img.shields.io/badge/CRAN-0.9.6%20%2D%208%20years%20ago-green)
 
 ```` R
  _____                _        _   _                            
