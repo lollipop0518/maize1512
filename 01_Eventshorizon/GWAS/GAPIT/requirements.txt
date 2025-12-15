@@ -1,0 +1,10 @@
+data.table
+doParallel
+foreach
+GAPIT
+here
+optparse
+parallel
+qqman
+stringr
+tools
