@@ -165,7 +165,7 @@ ht <- ComplexHeatmap::Heatmap(
   cluster_columns   = as.dendrogram(hc),
   show_row_dend     = TRUE,
   show_column_dend  = TRUE,
-  show_row_names    = FALSE,  # 365 个名字太密，图中一般不显示
+  show_row_names    = FALSE,  # 样本过多时名字太密，图中一般不显示
   show_column_names = FALSE,
   row_title         = "Maize inbred lines (rows)",
   column_title      = "",
