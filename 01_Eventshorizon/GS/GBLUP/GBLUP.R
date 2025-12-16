@@ -8,11 +8,11 @@
 ########################################
 rm(list=ls())
 # 设置工作路径
-setwd("D:/maize1512/03_All_Projects/GS/GBLUP")
+setwd("D:/maize1512/01_Eventshorizon//GS/GBLUP")
 
 # 依赖包检查与安装
 install_required_packages <- function() {
-  packages <- c("rrBLUP", "data.table","impute", "tidyverse", "readr")
+  packages <- c("rrBLUP", "data.table","impute", "tidyverse", "readr","snpReady")
   for (pkg in packages) {
     if (!require(pkg, character.only = TRUE)) {
       if (pkg == "impute") {
@@ -213,7 +213,7 @@ phen_file <- file.path(dataset_dir, "trait_imputed.txt")
 cat("读取表型:", phen_file, "\n")
 ph <- fread(phen_file, header=TRUE, data.table=FALSE, sep="\t")
 
-trait_col_name <- "leafmid_BLUP"
+trait_col_name <- "fenzhi_BLUP"
 if (!trait_col_name %in% colnames(ph)) colnames(ph) <- trimws(colnames(ph))
 if (!trait_col_name %in% colnames(ph)) stop(paste("未找到表型列:", trait_col_name))
 
@@ -303,4 +303,4 @@ pred_res <- data.frame(SampleID=ids_preds, Prediction=pred_preds)
 output_filename_pred <- paste0("./result/gblup_prediction_pred_", Sys.Date(), ".csv")
 write.csv(pred_res, output_filename_pred, row.names=FALSE)
 
-save.image(paste0("./result/GBLUP_SNPReady_", Sys.Date(), ".RData"))
+# save.image(paste0("./result/GBLUP_SNPReady_", Sys.Date(), ".RData"))
