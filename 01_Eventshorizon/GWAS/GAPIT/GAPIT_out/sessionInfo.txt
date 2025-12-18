@@ -1,0 +1,31 @@
+R version 4.4.0 (2024-04-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 22621)
+
+Matrix products: default
+
+
+locale:
+[1] LC_COLLATE=Chinese (Simplified)_China.utf8 
+[2] LC_CTYPE=Chinese (Simplified)_China.utf8   
+[3] LC_MONETARY=Chinese (Simplified)_China.utf8
+[4] LC_NUMERIC=C                               
+[5] LC_TIME=Chinese (Simplified)_China.utf8    
+
+time zone: Asia/Shanghai
+tzcode source: internal
+
+attached base packages:
+[1] parallel  stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+[1] doParallel_1.0.17 iterators_1.0.14  foreach_1.5.2     qqman_0.1.9      
+[5] GAPIT_3.4.0       optparse_1.7.5    stringr_1.6.0     data.table_1.17.8
+
+loaded via a namespace (and not attached):
+ [1] codetools_0.2-20     magrittr_2.0.4       getopt_1.20.4       
+ [4] glue_1.8.0           lifecycle_1.0.4      cli_3.6.5           
+ [7] scatterplot3d_0.3-44 calibrate_1.7.7      compiler_4.4.0      
+[10] tools_4.4.0          rlang_1.1.6          stringi_1.8.7       
+[13] MASS_7.3-65         

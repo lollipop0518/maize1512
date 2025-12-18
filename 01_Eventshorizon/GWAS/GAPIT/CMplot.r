@@ -8,7 +8,7 @@ project_info <- list(
 )
 options(myProject.info = project_info)
 
-# ctrl + enter 运行选中代码快
+# ctrl + enter Run code block
 library(qqman)
 library(tidyverse)
 library(data.table)
